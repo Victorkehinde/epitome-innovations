@@ -121,6 +121,7 @@ body {
   font-size: clamp(30px, 5vw, 46px);
   font-weight: 800; letter-spacing: 0.5px;
 }
+.section-head__sub { color: var(--muted); font-size: 17px; line-height: 1.6; margin-top: 14px; }
 
 /* ---------- TRINITY GRID ---------- */
 .trinity { padding: 100px 24px; max-width: 1120px; margin: 0 auto; }
@@ -182,6 +183,8 @@ body {
 .contact__item:hover { transform: translateY(-4px); border-color: var(--gold); }
 .contact__label { color: var(--gold-bright); text-transform: uppercase; letter-spacing: 2px; font-size: 11px; }
 .contact__value { color: var(--cream); font-size: 17px; font-weight: 600; word-break: break-word; }
+/* the branded email is long — a touch smaller so it sits on one line instead of breaking mid-word */
+.contact__value--email { font-size: 15px; letter-spacing: -0.2px; }
 
 /* ---------- FOOTER ---------- */
 .footer {
