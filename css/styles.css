@@ -204,3 +204,9 @@ body {
   .contact__links { grid-template-columns: 1fr; }
   .nav__links { display: none; }
 }
+
+
+/* ---------- LINK INSIDE THE ABOUT COPY ---------- */
+.about__link { color: var(--gold-bright); font-weight: 600; text-decoration: none;
+  border-bottom: 1px solid rgba(255, 201, 40, 0.4); }
+.about__link:hover { border-bottom-color: var(--gold-bright); }
